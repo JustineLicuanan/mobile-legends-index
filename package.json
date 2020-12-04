@@ -9,6 +9,7 @@
     "gatsby-plugin-offline": "^3.4.0",
     "gatsby-plugin-react-helmet": "^3.4.0",
     "gatsby-plugin-sass": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "node-sass": "4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -26,6 +27,7 @@
     "prettier": "2.1.2",
     "query-string": "^6.13.7",
     "react-error-overlay": "^6.0.8",
+    "regenerator-runtime": "^0.13.7",
     "shallow-compare": "^1.2.2"
   },
   "keywords": [],

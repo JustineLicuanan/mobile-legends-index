@@ -1,0 +1,10 @@
+@import "./variables";
+
+// Mobile
+@media only screen and (max-width: 480px) {
+  .hero-list {
+    .container {
+      padding: 0 10px;
+    }
+  }
+}

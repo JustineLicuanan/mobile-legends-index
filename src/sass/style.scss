@@ -1,2 +1,47 @@
 @import "./variables";
 @import "./reboot";
+
+.logo {
+  text-align: center;
+}
+
+.hero-list {
+  .flex {
+    flex-wrap: wrap;
+    align-items: initial;
+  }
+
+  .card {
+    padding: 0;
+    overflow: hidden;
+    width: 180px;
+
+    a {
+      color: $lightColor;
+    }
+
+    &:hover {
+      transform: scale(0.98);
+    }
+  }
+
+  &__card-header {
+    width: 100%;
+  }
+
+  &__card-body {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+.pagination {
+  text-align: center;
+
+  .flex {
+    justify-content: space-around;
+  }
+}
+
+@import "./utilities";
+@import "./media-queries";

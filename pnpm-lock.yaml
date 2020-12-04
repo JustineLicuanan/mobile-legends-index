@@ -3,6 +3,7 @@ dependencies:
   gatsby-plugin-offline: 3.4.0_gatsby@2.26.1
   gatsby-plugin-react-helmet: 3.4.0_gatsby@2.26.1+react-helmet@6.1.0
   gatsby-plugin-sass: 2.6.0_gatsby@2.26.1+node-sass@4.14.1
+  node-fetch: 2.6.1
   node-sass: 4.14.1
   prop-types: 15.7.2
   react: 16.13.1
@@ -19,6 +20,7 @@ devDependencies:
   prettier: 2.1.2
   query-string: 6.13.7
   react-error-overlay: 6.0.8
+  regenerator-runtime: 0.13.7
   shallow-compare: 1.2.2
 lockfileVersion: 5.2
 packages:
@@ -2519,7 +2521,7 @@ packages:
       integrity: sha512-D06m9bYesyQVvzGfHLm3I6wRfZjuQnSwExzyNT2Yr48If8FDbvfNtw9XA4/0aDD7auxdAaeoP3E0mtIysE8G1g==
   /babel-runtime/6.26.0:
     dependencies:
-      core-js: 2.6.11
+      core-js: 2.6.12
       regenerator-runtime: 0.11.1
     dev: false
     resolution:
@@ -3603,12 +3605,12 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-EZD2ckZysv8MMt4J6HSvS9K2GdtlZtdBncKAmF9lr2n0c9dJUaUN88PSTjvgwCgQPWKTkERXITgS6JJRAnljtg==
-  /core-js/2.6.11:
+  /core-js/2.6.12:
     deprecated: 'core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.'
     dev: false
     requiresBuild: true
     resolution:
-      integrity: sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
+      integrity: sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
   /core-js/3.7.0:
     dev: false
     requiresBuild: true
@@ -13213,6 +13215,7 @@ specifiers:
   gatsby-plugin-sass: ^2.6.0
   gatsby-react-router-scroll: ^3.2.0
   mitt: ^2.1.0
+  node-fetch: ^2.6.1
   node-sass: 4.14.1
   prettier: 2.1.2
   prop-types: ^15.7.2
@@ -13221,4 +13224,5 @@ specifiers:
   react-dom: ^16.12.0
   react-error-overlay: ^6.0.8
   react-helmet: ^6.1.0
+  regenerator-runtime: ^0.13.7
   shallow-compare: ^1.2.2
