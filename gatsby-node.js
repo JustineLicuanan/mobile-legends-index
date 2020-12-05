@@ -40,3 +40,19 @@ exports.sourceNodes = async ({
     })
   )
 }
+
+// Implement the Gatsby API “onCreatePage”. This is
+// called after every page is created.
+exports.onCreatePage = async ({ page, actions }) => {
+  const { createPage } = actions
+
+  // Only update the `/hero/detail` page.
+  if (page.path.match(/^\/hero\/detail/)) {
+    // page.matchPath is a special key that's used for matching pages
+    // with corresponding routes only on the client.
+    page.matchPath = "/hero/detail/*"
+
+    // Update the page.
+    createPage(page)
+  }
+}

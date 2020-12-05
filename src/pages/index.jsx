@@ -75,7 +75,7 @@ export const query = graphql`
           type
           name
           heroid
-          gallery_picture
+          cover_picture
           phy
           mag
         }

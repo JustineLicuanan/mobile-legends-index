@@ -1,14 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const HeroCard = ({ heroid, name, gallery_picture }) => {
+const HeroCard = ({ heroid, name, cover_picture }) => {
   return (
     <li className="card">
-      <Link to="/">
-        <div className="hero-list__card-header">
-          <img src={gallery_picture} alt={`${name} Avatar`} />
+      <Link to={`/hero/detail/${heroid}`}>
+        <div className="card__header">
+          <img src={cover_picture} alt={`${name} Avatar`} />
         </div>
-        <div className="hero-list__card-body">
+        <div className="card__body">
           <h3>{name}</h3>
         </div>
       </Link>

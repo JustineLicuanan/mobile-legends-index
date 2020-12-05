@@ -16,6 +16,15 @@
     overflow: hidden;
     width: 180px;
 
+    &__header {
+      width: 100%;
+    }
+
+    &__body {
+      padding: 20px;
+      text-align: center;
+    }
+
     a {
       color: $lightColor;
     }
@@ -24,13 +33,41 @@
       transform: scale(0.98);
     }
   }
+}
 
-  &__card-header {
-    width: 100%;
+.hero-details {
+  .container {
+    &.flex {
+      flex-direction: column;
+      justify-content: initial;
+    }
   }
 
-  &__card-body {
-    padding: 20px;
+  .card {
+    max-width: 440px;
+    margin: 10px auto;
+    padding: 10px;
+
+    &.flex {
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  &__image {
+    width: 240px;
+    margin-left: auto;
+  }
+
+  &__stats {
+    padding: 10px;
+  }
+
+  .container > .btn {
     text-align: center;
   }
 }
